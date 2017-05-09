@@ -11,6 +11,7 @@
 }
 .icon-menu {
   float:right;
+  font-size: 65px;
 }
 .main-nav ul {
   display: none;
