@@ -60,5 +60,6 @@
   }
   .main-nav li {
     display:inline;
+    border:none;
   }
 }
