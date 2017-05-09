@@ -7,11 +7,6 @@
   padding: 0 0 .2em 1em;
 }
 
-
-.icon-menu{
-  float: right;
-}
-
 .main-nav {
   padding: 0.1em;
 }
@@ -53,7 +48,21 @@
   font-weight: bold;
   text-decoration: none;
 }
-
+@media only screen and (min-width:1025px){
+  .icon-menu {
+    display:none;
+  }
+  .main-nav ul {
+    display:inline;
+    padding:50px;
+  }
+  .main-nav:hover ul {
+    display:inline;
+  }
+  .main-nav li {
+    display:inline;
+  }
+}
 
 
 /* TODO: Now add styles for how things should look on a larger screen:
@@ -61,18 +70,3 @@
          - Main should be all on one row, with padding spaced better for a larger screen.
          - Just, ya know, try to make it look good! */
 /* @media only screen... */
-@media only screen and (min-width: 640px) {
-  .icon-menu{
-    display: none;
-  }
-  .main-nav {
-    display: inline-block;
-  }
-  .main-nav ul{
-  display: inline-block;
-  }
-  .main-nav li{
-  float:left;
-  border-bottom:none;
-  }
-}
